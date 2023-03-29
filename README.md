@@ -63,3 +63,5 @@ Whenever possible new vector layers should be created using a SPARQL query in [S
 1. Run `yarn test` to test for errors.
 1. Invalid or non-simple geometry errors that occur during testing can usually be fixed by running the `clean-geom.js` script against the GeoJSON file (e.g. `node scripts/clean-geom.js data/usa_states_v1.geo.json`).
 1. Run `./build.sh` to build the manifest and blob files locally.
+
+dummy text to check for signed commits
