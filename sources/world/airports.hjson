@@ -1,0 +1,229 @@
+{
+  versions: '>= 1'
+  production: true
+  type: http
+  note: Airports from all over the world
+  wikidata: Q1248784
+  data: ''
+  attribution: [
+    {
+      label: {
+        en: Made with NaturalEarth
+      }
+      url: {
+        en: http://www.naturalearthdata.com/about/terms-of-use
+      }
+    }
+    {
+      label: {
+        en: Elastic Maps Service
+      }
+      url: {
+        en: https://www.elastic.co/elastic-maps-service
+      }
+    }
+  ]
+  fieldMapping: [
+    {
+      type: id
+      name: gps_code
+      desc: GPS code
+    }
+    {
+      type: id
+      name: iata_code
+      desc: IATA code
+    }
+    {
+      type: property
+      name: name
+      desc: Airport name
+    }
+    {
+      type: property
+      name: abbrev
+      desc: Airport abbreviation
+    }
+  ]
+  website: https://github.com/martynafford/natural-earth-geojson/tree/master
+  license:
+  {
+    url: http://www.naturalearthdata.com/about/terms-of-use/
+    text: Made with Natural Earth
+  }
+  name: airports
+  legacyIds: [
+    airports
+  ]
+  humanReadableName: {
+    af: lughawe
+    ak: Wiemhyɛn gyinabea
+    an: Aeropuerto
+    ang: Flyhthæfen
+    ar: مطار
+    arc: ܒܝܬ ܛܘܣܐ
+    ast: aeropuertu
+    az: Aeroport
+    azb: طیاره مئیدانی
+    ba: Аэропорттар
+    ban: Bandar udara
+    bcl: Palayogan
+    be: аэрапорт
+    be-tarask: аэрапорт
+    bg: летище
+    bho: हवाईअड्डा
+    bn: বিমানবন্দর
+    br: aerborzh
+    bs: aerodrom
+    bxr: Ниидэхэ онгосын буудал
+    ca: aeroport
+    ceb: Tugpahanan
+    ckb: فڕۆکەخانە
+    cs: letiště
+    cy: maes awyr
+    da: lufthavn
+    de: Flughafen
+    de-ch: Flughafen
+    diq: Hewaherun
+    el: αερολιμένας
+    en: Airports
+    en-ca: Airports
+    en-gb: Airports
+    eo: flughaveno
+    es: Aeropuertos
+    et: lennujaam
+    eu: aireportu
+    fa: فرودگاه
+    fi: lentoasema
+    fo: floghavn
+    fr: aéroport
+    fy: lofthaven
+    ga: aerfort
+    gd: port-adhair
+    gl: aeroporto
+    gn: Pepo'atãrupa
+    gu: હવાઈમથક
+    ha: filin jirgin sama
+    hak: Kî-chhòng
+    haw: kahua mokulele
+    he: נמל תעופה
+    hi: विमानक्षेत्र
+    hr: zračna luka
+    hsb: lětanišćo
+    ht: Ayeropò
+    hu: repülőtér
+    hy: օդակայան
+    hyw: Օդակայան
+    ia: aeroporto
+    id: bandar udara
+    ig: Ọdụ ụgbọ élú
+    io: Aeroportuo
+    is: flugvöllur
+    it: aeroporto
+    iu: ᖃᖓᑕᓲᒃᑯᕕᒃ
+    ja: 空港
+    jv: papan anggegana
+    ka: აეროპორტი
+    kaa: Aeroport
+    kk: Әуежай
+    kn: ವಿಮಾನ ನಿಲ್ದಾಣ
+    ko: 공항
+    ks: ہَوٲیی اَڈٕ
+    ku-latn: balafirgeh
+    kv: Аэропорт
+    ky: Аэропорт
+    la: Aëroportus
+    lad: Ayroporto
+    lb: Fluchhafen
+    li: Lochhave
+    ln: Libándá lya Ndáko ya mpɛ́pɔ
+    lo: ເດີ່ນຍົນ
+    lt: oro uostas
+    lv: lidosta
+    mhr: аэропорт
+    min: Palabuahan udaro
+    mk: аеродром
+    ml: വിമാനത്താവളം
+    mn: Нисэх онгоцны буудал
+    mr: विमानतळ
+    ms: lapangan terbang
+    ms-arab: لاڤڠن تربڠ
+    mt: ajruport
+    my: လေယာဉ်ကွင်း
+    nah: Ehēcalquixohuayān
+    nan: Khong-káng
+    nb: flyplass
+    nds: Flegerhaven
+    ne: विमानस्थल
+    nl: luchthaven
+    nn: lufthamn
+    oc: Aeropòrt
+    or: ବିମାନବନ୍ଦର
+    os: аэропорт
+    pa: ਹਵਾਈ ਅੱਡਾ
+    pl: port lotniczy
+    pnb: ہوائی اڈا
+    pt: aeroporto
+    pt-br: aeroporto
+    qu: Antanka pampa
+    ro: aeroport
+    ru: аэропорт
+    ryu: 空港
+    scn: ariuportu
+    sco: airport
+    sd: ھوائي اڏو
+    se: girdišillju
+    sgs: Uora ousts
+    sh: aerodrom
+    shi: azagʷz
+    sk: letisko
+    sl: letališče
+    sma: girtiegeajnoe
+    smj: girdádahka
+    smn: kirdemkieddi
+    sms: jarplaanšellj
+    so: Gego diyaarad
+    sq: Aeroporti
+    sr: аеродром
+    su: Bandar udara
+    sv: flygplats
+    sw: uwanja wa ndege
+    ta: வானூர்தி நிலையம்
+    te: విమానాశ్రయం
+    tg: Фурудгоҳ
+    tg-cyrl: фурудгоҳ
+    th: ท่าอากาศยาน
+    tl: Paliparan
+    to: Malaʻe vakapuna
+    tpi: Ples balus
+    tr: havalimanı
+    tt: Һава аланы
+    tw: wiemuhyɛn
+    uk: аеропорт
+    ur: ہوائی اڈا
+    uz: Aeroport
+    vec: aeroporto
+    vi: sân bay
+    vls: vliegpling
+    war: Luparan
+    wuu: 机场
+    xmf: აეროპორტი
+    yi: פליפעלד
+    yue: 飛機場
+    zh: 機場
+    zh-cn: 机场
+    zh-hans: 机场
+    zh-hant: 機場
+    zh-hk: 機場
+    zh-tw: 機場
+  }
+  emsFormats:[{
+    type: geojson
+    file: airports_min.geo.json
+    default: true
+  }]
+  ttl: 108000
+  weight: 2
+  createdAt: "2023-12-05T15:27:27+0100"
+  id: 1701786511682710992
+}
